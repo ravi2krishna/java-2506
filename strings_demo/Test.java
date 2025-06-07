@@ -131,15 +131,25 @@ public static void main(String[] args) {
         
         // check based on file type extension
         // 12th substring()
-        System.out.println("Enter Your Product CODE to extract info: "); 
-        // "SHIRT-STYLE-SIZE"
-        String shirtInfo = sc.nextLine();
-        if (shirtInfo.indexOf("-") == -1) {
-            System.out.println("Input Correct Product ID");
-        } else {
-            System.out.println("Dress Type: "+shirtInfo.substring(0, 5));
-            System.out.println("Model : "+shirtInfo.substring(6, 10));
-            System.out.println("Size : "+shirtInfo.substring(11));
+        // System.out.println("Enter Your Product CODE to extract info: "); 
+        // // "SHIRT-STYLE-SIZE"
+        // String shirtInfo = sc.nextLine();
+        // if (shirtInfo.indexOf("-") == -1) {
+        //     System.out.println("Input Correct Product ID");
+        // } else {
+        //     System.out.println("Dress Type: "+shirtInfo.substring(0, 5));
+        //     System.out.println("Model : "+shirtInfo.substring(6, 10));
+        //     System.out.println("Size : "+shirtInfo.substring(11));
+        // }
+
+        // check based on file type extension
+        // 13th split()
+        String str = "hey ^how are ^you";
+        String products = "id,name,desc,price";
+        System.out.println(products.split("\\^"));
+        String [] dataextreacted = str.split("\\^");
+        for (int i=0;i<dataextreacted.length;i++) {
+            System.out.println(dataextreacted[i]);
         }
 
 
