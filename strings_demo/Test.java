@@ -15,6 +15,18 @@ public static void main(String[] args) {
             System.out.println("InValid User Name, give atleast 6 letters");
         }
 
+       // check based on character
+        // 2nd charAt()
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter Your Gender: ");
+        String gender = sc.nextLine();
+        if (gender.charAt(0) == 'F' || gender.charAt(0) == 'M' || gender.charAt(0) == 'f' || gender.charAt(0) == 'm' ) {
+            System.out.println("Valid");
+        } else {
+            System.out.println("InValid");
+        }
+        
+        
 
 }
     
