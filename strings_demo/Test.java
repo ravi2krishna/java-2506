@@ -144,14 +144,26 @@ public static void main(String[] args) {
 
         // check based on file type extension
         // 13th split()
-        String str = "hey ^how are ^you";
-        String products = "id,name,desc,price";
-        System.out.println(products.split("\\^"));
-        String [] dataextreacted = str.split("\\^");
-        for (int i=0;i<dataextreacted.length;i++) {
-            System.out.println(dataextreacted[i]);
-        }
+        // String str = "hey ^how are ^you";
+        // String products = "id,name,desc,price";
+        // System.out.println(products.split("\\^"));
+        // String [] dataextreacted = str.split("\\^");
+        // for (int i=0;i<dataextreacted.length;i++) {
+        //     System.out.println(dataextreacted[i]);
+        // }
 
+        // check based on file type extension
+        // 14th join()
+        String baseDir = "/usr/local";
+        String appName = "myntra";
+        String fullPath = String.join("/", baseDir,appName);
+        System.out.println(fullPath);
+
+        String api = "https://api.edify.com";
+        String resource = "users";
+        String userID = "123";
+        String apiURL = String.join("/", api,resource,userID);
+        System.out.println(apiURL);
 
 }
     
