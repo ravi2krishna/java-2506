@@ -53,6 +53,17 @@ public static void main(String[] args) {
         String panNumber = sc.nextLine();
         System.out.println("Your PAN: "+panNumber.toUpperCase());
 
+        // check based on email context -> @ is must
+        // 6th contains()
+        System.out.println("Enter Your Email: ");
+        String email = sc.nextLine();
+
+        if (email.contains("@gmail.com") || email.contains("@GMAIL.com")) {
+            System.out.println("Valid Gmail Account");
+        } else {
+            System.out.println("Only Provide Gmail Account");
+        }
+
 }
     
 }
