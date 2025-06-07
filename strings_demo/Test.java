@@ -47,7 +47,11 @@ public static void main(String[] args) {
             System.out.println("Password Did not Match");
         }
 
-
+        // check based on PAN usecase
+        // 5th toUpperCase()
+        System.out.println("Enter Your PAN: ");
+        String panNumber = sc.nextLine();
+        System.out.println("Your PAN: "+panNumber.toUpperCase());
 
 }
     
