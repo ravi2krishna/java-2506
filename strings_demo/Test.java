@@ -103,16 +103,30 @@ public static void main(String[] args) {
 
         // check based on email -> give only userid
         // 10th indexOf()
-        System.out.println("Enter Your Email: "); // ravi2krishna@gmailcom
-        String email = sc.nextLine();
-        // System.out.println(email.indexOf("@"));
-        if (email.indexOf("@") == -1) {
-            System.out.println("Input Correct Email");
+        // System.out.println("Enter Your Email: "); // ravi2krishna@gmailcom
+        // String email = sc.nextLine();
+        // // System.out.println(email.indexOf("@"));
+        // if (email.indexOf("@") == -1) {
+        //     System.out.println("Input Correct Email");
+        // } else {
+        //     for (int index = 0; index < email.indexOf("@");index++) {
+        //         char userid[] = email.toCharArray();
+        //         System.out.print(userid[index]);
+        //     }
+        // }
+
+        // check based on file type extension
+        // 11th lastIndexOf()
+        System.out.println("Enter Your File Name with extension: "); 
+        String fileType = sc.nextLine();
+        if (fileType.lastIndexOf(".") == -1) {
+            System.out.println("Input Correct Filename");
         } else {
-            for (int index = 0; index < email.indexOf("@");index++) {
-                char userid[] = email.toCharArray();
-                System.out.print(userid[index]);
+            for (int index = fileType.indexOf("."); index < fileType.length();index++) {
+                char extension[] = fileType.toCharArray();
+                System.out.print(extension[index]);
             }
+            System.out.println(" File Uploaded Sucessfully");
         }
 
 
