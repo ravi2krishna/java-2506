@@ -117,16 +117,29 @@ public static void main(String[] args) {
 
         // check based on file type extension
         // 11th lastIndexOf()
-        System.out.println("Enter Your File Name with extension: "); 
-        String fileType = sc.nextLine();
-        if (fileType.lastIndexOf(".") == -1) {
-            System.out.println("Input Correct Filename");
+        // System.out.println("Enter Your File Name with extension: "); 
+        // String fileType = sc.nextLine();
+        // if (fileType.lastIndexOf(".") == -1) {
+        //     System.out.println("Input Correct Filename");
+        // } else {
+        //     for (int index = fileType.indexOf("."); index < fileType.length();index++) {
+        //         char extension[] = fileType.toCharArray();
+        //         System.out.print(extension[index]);
+        //     }
+        //     System.out.println(" File Uploaded Sucessfully");
+        // }
+        
+        // check based on file type extension
+        // 12th substring()
+        System.out.println("Enter Your Product CODE to extract info: "); 
+        // "SHIRT-STYLE-SIZE"
+        String shirtInfo = sc.nextLine();
+        if (shirtInfo.indexOf("-") == -1) {
+            System.out.println("Input Correct Product ID");
         } else {
-            for (int index = fileType.indexOf("."); index < fileType.length();index++) {
-                char extension[] = fileType.toCharArray();
-                System.out.print(extension[index]);
-            }
-            System.out.println(" File Uploaded Sucessfully");
+            System.out.println("Dress Type: "+shirtInfo.substring(0, 5));
+            System.out.println("Model : "+shirtInfo.substring(6, 10));
+            System.out.println("Size : "+shirtInfo.substring(11));
         }
 
 
