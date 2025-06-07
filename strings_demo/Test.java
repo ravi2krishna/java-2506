@@ -26,8 +26,12 @@ public static void main(String[] args) {
             System.out.println("InValid");
         }
         
-        
-
+        // check based on lowercase
+        // 3rd toLowerCase()
+        System.out.println("Enter Your Username: ");
+        String unformatted_userName = sc.nextLine();
+        String formatted_userName = unformatted_userName.toLowerCase();
+        System.out.println("Welcome: "+formatted_userName);
 }
     
 }
