@@ -154,16 +154,33 @@ public static void main(String[] args) {
 
         // check based on file type extension
         // 14th join()
-        String baseDir = "/usr/local";
-        String appName = "myntra";
-        String fullPath = String.join("/", baseDir,appName);
-        System.out.println(fullPath);
+        // String baseDir = "/usr/local";
+        // String appName = "myntra";
+        // String fullPath = String.join("/", baseDir,appName);
+        // System.out.println(fullPath);
 
-        String api = "https://api.edify.com";
-        String resource = "users";
-        String userID = "123";
-        String apiURL = String.join("/", api,resource,userID);
-        System.out.println(apiURL);
+        // String api = "https://api.edify.com";
+        // String resource = "users";
+        // String userID = "123";
+        // String apiURL = String.join("/", api,resource,userID);
+        // System.out.println(apiURL);
+
+    // check based on file type extension
+    // 14th replace()   
+    String content = "hello there welcome to python";
+    System.out.println(content.replace("python", "java"));
+
+    String emailTemplate = "Hello {{userName}}, your order #{{orderId}} has been shipped.";
+       String userName = "ramu";
+       String orderId = "910jsksjs";
+
+
+       String personalizedEmail = emailTemplate.replace("{{userName}}", userName);
+       personalizedEmail = personalizedEmail.replace("{{orderId}}", orderId);
+
+
+       System.out.println(personalizedEmail);
+
 
 }
     
