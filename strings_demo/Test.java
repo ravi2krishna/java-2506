@@ -95,11 +95,26 @@ public static void main(String[] args) {
         //     System.out.println("Use Only Gmail or Outlook");
         // }
         
-        // check based on email -> endig with
-        // 9th trim()
-        System.out.println("Enter Your Email: ");
+        // // check based on email -> endig with
+        // // 9th trim()
+        // System.out.println("Enter Your Email: ");
+        // String email = sc.nextLine();
+        // System.out.println("Your Email: "+email.trim());
+
+        // check based on email -> give only userid
+        // 10th indexOf()
+        System.out.println("Enter Your Email: "); // ravi2krishna@gmailcom
         String email = sc.nextLine();
-        System.out.println("Your Email: "+email.trim());
+        // System.out.println(email.indexOf("@"));
+        if (email.indexOf("@") == -1) {
+            System.out.println("Input Correct Email");
+        } else {
+            for (int index = 0; index < email.indexOf("@");index++) {
+                char userid[] = email.toCharArray();
+                System.out.print(userid[index]);
+            }
+        }
+
 
 }
     
