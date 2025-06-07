@@ -82,6 +82,19 @@ public static void main(String[] args) {
             System.out.println("Calling Supported to IND UK USA Only");
         }
 
+        // check based on email -> endig with
+        // 8th endsWith()
+        System.out.println("Enter Your Email: ");
+        String email = sc.nextLine();
+
+        if (email.endsWith("@gmail.com")) {
+            System.out.println("Sending to gmail");
+        } else if (email.endsWith("@outlook.com")){
+            System.out.println("Sending to outlook");
+        } else {
+            System.out.println("Use Only Gmail or Outlook");
+        }
+
 
 }
     
