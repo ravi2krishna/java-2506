@@ -32,6 +32,23 @@ public static void main(String[] args) {
         String unformatted_userName = sc.nextLine();
         String formatted_userName = unformatted_userName.toLowerCase();
         System.out.println("Welcome: "+formatted_userName);
+
+        // check based on password usecase
+        // 4th equals()
+        System.out.println("Enter Your Password: ");
+        String password = sc.nextLine();
+
+        System.out.println("Re-enter Your Password Again: ");
+        String passwordMatched = sc.nextLine();
+
+        if (password.equals(passwordMatched)) {
+            System.out.println("Password Changed Successfully");
+        } else {
+            System.out.println("Password Did not Match");
+        }
+
+
+
 }
     
 }
