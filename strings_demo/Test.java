@@ -66,35 +66,40 @@ public static void main(String[] args) {
 
         // check based on phone number context -> country code
         // 7th startsWith()
-        System.out.println("Enter Your Number along with Country Code: ");
-        String phoneNumber = sc.nextLine();
-        if (phoneNumber.startsWith("+91")) {
-            if (phoneNumber.length()<5) {
-                System.out.println("Provide atleast 10 digit number");
-            }
-            System.out.println("Calling To India");
-        } else if (phoneNumber.startsWith("+44")) {
-            System.out.println("Calling To UK");
-        } else if (phoneNumber.startsWith("+1")) {
-            System.out.println("Calling To USA");
-        } 
-        else {
-            System.out.println("Calling Supported to IND UK USA Only");
-        }
+        // System.out.println("Enter Your Number along with Country Code: ");
+        // String phoneNumber = sc.nextLine();
+        // if (phoneNumber.startsWith("+91")) {
+        //     if (phoneNumber.length()<5) {
+        //         System.out.println("Provide atleast 10 digit number");
+        //     }
+        //     System.out.println("Calling To India");
+        // } else if (phoneNumber.startsWith("+44")) {
+        //     System.out.println("Calling To UK");
+        // } else if (phoneNumber.startsWith("+1")) {
+        //     System.out.println("Calling To USA");
+        // } 
+        // else {
+        //     System.out.println("Calling Supported to IND UK USA Only");
+        // }
 
         // check based on email -> endig with
         // 8th endsWith()
+        // System.out.println("Enter Your Email: ");
+        // String email = sc.nextLine();
+
+        // if (email.endsWith("@gmail.com")) {
+        //     System.out.println("Sending to gmail");
+        // } else if (email.endsWith("@outlook.com")){
+        //     System.out.println("Sending to outlook");
+        // } else {
+        //     System.out.println("Use Only Gmail or Outlook");
+        // }
+        
+        // check based on email -> endig with
+        // 9th trim()
         System.out.println("Enter Your Email: ");
         String email = sc.nextLine();
-
-        if (email.endsWith("@gmail.com")) {
-            System.out.println("Sending to gmail");
-        } else if (email.endsWith("@outlook.com")){
-            System.out.println("Sending to outlook");
-        } else {
-            System.out.println("Use Only Gmail or Outlook");
-        }
-
+        System.out.println("Your Email: "+email.trim());
 
 }
     
