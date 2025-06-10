@@ -1,0 +1,3 @@
+-> Static Variables - they are defined on class-level with static keyword
+
+-> Shared among all objects
