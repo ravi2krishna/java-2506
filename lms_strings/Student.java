@@ -40,7 +40,10 @@ public class Student {
        System.out.println("Student Name: " + studentName);
     }
 
-
+    // prompt for coupon code 
+    // --> format EDIFY-10 = Add 10% discount
+    // --> format EDIFY-25 = Add 20% discount
+    // --> format EDIFY-50 = Add 50% discount
 
     public void calculateCourseFee() {
         double discount = 0;
