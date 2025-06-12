@@ -27,6 +27,8 @@ public class Test {
         System.out.println(t3.new_number);
         System.out.println(t4.new_number);
 
+        System.out.println("Calling Another Class Variable: "+Test2.test2Var);
+
     }
 
 }
