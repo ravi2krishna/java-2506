@@ -1,0 +1,17 @@
+12 June
+=======
+
+    -> Non-Static Variables - individual copies for each object
+
+    -> Static Variables - common copy for entire class
+
+    -> Static Blocks - This is the block of code, that gets executed when the class is loaded into
+        memory by JVM
+
+        -> initialize the Static Variables, eveb before main method is executed
+
+    -> Non-Static Blocks
+
+    -> Non-Static Methods Cannot be called in Static Methods
+
+    -> Static Methods Can be called in Non-Static Methods
