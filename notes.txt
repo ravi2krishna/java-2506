@@ -15,3 +15,51 @@
     -> Non-Static Methods Cannot be called in Static Methods
 
     -> Static Methods Can be called in Non-Static Methods
+
+14 June
+=======    
+
+    -> Inheritance - Obtaining the traits and characteristics from an existing
+    class.
+    
+    -> According to our example, we want watchVideos() in multiple places
+    will introduce Inheritance
+
+    -> Types Of Inheritance
+
+        -> Single
+        -> Multiple  
+        -> Multi Level
+        -> Hirerarchial
+        -> Hybrid
+
+        -> NOTE: Java doesn't support multiple Inheritance with classes
+        it supports with Interfaces 
+
+    -> Single Inheritance
+        -> Inherit features from single parent class
+        -> child_class extends parent_class
+
+    -> Multi Level Inheritance
+        -> Inherit features from multi parent class
+        -> child_class extends parent_class extends super_parent
+
+    -> Multiple Inheritance
+        -> Java doesn't support multiple Inheritance with classes
+        -> Java supports multiple Inheritance with Interfaces
+        -> Using Classes Extends failed with Multiple Inheritance
+            -> class Admin extends Guest, VideoAdmin
+
+
+        -> Interfaces - We have abstract methods i.e methods without 
+        implementation
+        
+        -> Using Interfaces implments work with Multiple Inheritance
+            -> class VideoAdmin implements Watchable, Addable
+
+        -> Hirerarchial - Multiple classes inherit from same super class
+            -> use extends to achieve
+
+        -> Hybrid - Combination of single + mutiple / multilevel
+        
+            
