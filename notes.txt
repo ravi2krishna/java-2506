@@ -96,3 +96,14 @@
         -> For inner classes (Nested Classess) we can use all 4 access modifiers
 
         -> NOTE: Inside OuterClass, we can access all inner classes, regardless of modifier.
+
+
+    -> Encapuslation -  is the ability of an Object to hide it's data and methods from rest of world
+            -> Simple use private access modifier   
+
+        ->  Encapsulation refers to the process of binding data (variables) and methods 
+            that operate on the data into a single unit called a class.   
+
+        -> Encapsulation ensures that:
+                1. Data is protected from unauthorized access.
+                2. The implementation details are hidden, and only the essential features are exposed to the user.
