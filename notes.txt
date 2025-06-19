@@ -94,3 +94,5 @@
         -> We cannot make Top Level Classes as Private or Protected
 
         -> For inner classes (Nested Classess) we can use all 4 access modifiers
+
+        -> NOTE: Inside OuterClass, we can access all inner classes, regardless of modifier.
