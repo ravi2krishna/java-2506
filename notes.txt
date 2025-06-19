@@ -62,4 +62,28 @@
 
         -> Hybrid - Combination of single + mutiple / multilevel
         
-            
+
+19 June
+=======
+
+    -> Encapuslation
+
+        -> To achieve Encapuslation we need to know about ACCESS MODIFIERS/SPECIFIERS
+
+    -> Access Modifiers
+        -> are keywords, they control VISIBILITY of your program members
+            -> classes, methods, Variables, constructors etc
+        
+        -> We use Access Modifiers to enhance Security and determin scope of program members along with
+        enforcing Encapuslation
+
+    -> List of Access Modifiers
+
+        -> Public
+        -> private
+        -> Protected
+        -> Default
+
+    ->  NOTE: If you understand access modifiers well, using variables, the same concept extends to 
+        methods and constructors with slight differnce in Classes      
+
