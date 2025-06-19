@@ -87,3 +87,10 @@
     ->  NOTE: If you understand access modifiers well, using variables, the same concept extends to 
         methods and constructors with slight differnce in Classes      
 
+    -> Access Modifiers with Classes
+
+        -> Top Level Classes can only be Public and Default(no modifier)
+
+        -> We cannot make Top Level Classes as Private or Protected
+
+        -> For inner classes (Nested Classess) we can use all 4 access modifiers
