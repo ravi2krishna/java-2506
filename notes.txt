@@ -130,4 +130,44 @@
 
         -> OOPS Principal           -> Not Following            -> Following (Encapsulation)
 
+
+    -> Interfaces 
+
+        -> Class - Blueprint of Object 
+
+        -> Interface - Blueprint of Class
+
+            -> Contain only abstract methods (methods without body)   
+            -> Contain Constants (Static and final variables)
+
+        -> Interfaces are like business contracts
+
+        -> In a contract i.e franchise we have only
+
+            -> High Level Info, not detailed Info
+
+        -> Interfaces will have 
+
+            -> WHAT TO DO
+            -> NOT HOW TO DO            
+
+
+        -> Classes will have
+
+            -> WHAT TO DO   
+            -> HOW TO DO            
+
+    -> Key Points about Interfaces
+
+        -> Specify the behavior that a class must implement
+
+        -> we use implements keyword with class 
+
+        -> Will help you achieve Following OOPS features Multiple Inheritance and Abstraction
+
+        -> Variables inside Interfaces can be only Public, Static & final
+
+        -> A class that implements an Interface, must provide implementation for all of implments
+            abstract methods
         
+            
