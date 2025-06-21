@@ -107,3 +107,27 @@
         -> Encapsulation ensures that:
                 1. Data is protected from unauthorized access.
                 2. The implementation details are hidden, and only the essential features are exposed to the user.
+
+
+21 June
+=======
+
+    -> Constructors vs Setters
+
+                                        Constructors                   Setters 
+
+        -> Quick Initialization     -> Constructor (Good)       -> Setters (Needs Extra Steps)
+
+        -> Code Readability         -> For Small Objects        -> More Readable foor Large Objects
+
+        -> Validation Control       -> NO (only initialize)     -> Yes supports
+
+        -> Logging/Debugging        -> NO (only initialize)     -> We can log
+
+        -> Scalability              -> 50 fields - Messy        -> Clean & Maintainable
+
+        -> Real World Projects      -> Small Projects           -> Enterprise 
+
+        -> OOPS Principal           -> Not Following            -> Following (Encapsulation)
+
+        
