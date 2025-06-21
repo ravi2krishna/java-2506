@@ -169,5 +169,21 @@
 
         -> A class that implements an Interface, must provide implementation for all of implments
             abstract methods
-        
-            
+
+        -> The above rules are applicable till Java 7
+
+        -> From Java 8 onwards we got some new features 
+
+            -> If we provide new abstract methods in Interfaces, it might affect all the
+             classes which implement this Interface
+
+            ->  To provide implementation we got two ways now
+
+                -> Default Methods - methods with default implementation
+                -> Static Methods -  methods that belong to Interface and can be called directly
+
+                NOTE: We cannot use default for class methods, only allowed for interfaces
+
+            ->     
+
+
