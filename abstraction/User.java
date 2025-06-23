@@ -8,6 +8,12 @@ public class User {
         lenovo.hdmi(); // no abstraction 
         lenovo.microSDSlot(); // no abstraction 
 
+        // Implementing Abstraction
+        Laptop abs = new Lenovo();
+        abs.usbA(); // achieved abstraction
+        abs.usbC(); // achieved abstraction
+
+
         Dell dell = new Dell();
         dell.hdmi();
         dell.usbA();
