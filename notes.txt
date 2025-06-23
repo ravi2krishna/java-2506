@@ -201,5 +201,10 @@
     -> NOTE: In abstract classes, we don't provide complete implementations of 
         an interface, we can provide partial implementations and we leave
         few implementations like methods as unimplemented.
-        
-            
+
+    -> RULES: 
+        -> We cannot create objects, for abstrct classes that Contain both
+            abstract and non-abstract methods
+
+        -> We can have non-abstract methods inside abstrct classes
+
