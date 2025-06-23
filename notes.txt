@@ -187,3 +187,19 @@
             ->     
 
 
+23 June
+=======
+
+    -> Concrete Classes - Where methods must have implementations
+
+    -> Interfaces - We have Abstract Methods Only till Java 7, from 8 onwards
+        we have Default methods(default implementations)
+
+    -> Abstract Classes - declared using abstract keyword, it can Contain
+        both abstract methods and concrete methods
+
+    -> NOTE: In abstract classes, we don't provide complete implementations of 
+        an interface, we can provide partial implementations and we leave
+        few implementations like methods as unimplemented.
+        
+            
