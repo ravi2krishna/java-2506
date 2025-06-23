@@ -3,10 +3,10 @@ package abstraction;
 public class User {
     public static void main(String[] args) {
         Lenovo lenovo = new Lenovo();
-        lenovo.usbA();
-        lenovo.usbC();
-        lenovo.hdmi();
-        lenovo.microSDSlot();
+        lenovo.usbA(); // no abstraction 
+        lenovo.usbC(); // no abstraction 
+        lenovo.hdmi(); // no abstraction 
+        lenovo.microSDSlot(); // no abstraction 
 
         Dell dell = new Dell();
         dell.hdmi();
