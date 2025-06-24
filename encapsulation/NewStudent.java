@@ -1,31 +1,27 @@
 package encapsulation;
 
-// achieved encapsulation
 public class NewStudent {
-    
-    private int id;
-    private String name;
-    private  boolean isAttended;
 
-    public void setId(int id) {
+    // now ecapsulation is achieved by using private on data i.e variables
+    // using setter and getter methods
+    private int id; 
+    private String name;
+    private boolean isAttended;
+    
+
+    public NewStudent(int id) {
         this.id = id;
     }
-    public void setName(String name) {
-        this.name = name;
-    }
-    public void setAttended(boolean isAttended) {
+
+    public void setAttendance(boolean isAttended) {
+        if(!isAttended)
         this.isAttended = isAttended;
+        System.out.println("Teacher Assigned Student Attendance");
     }
-    public int getId() {
-        return id;
-    }
-    public String getName() {
-        return name;
-    }
-    public boolean isAttended() {
+
+    public boolean getAttendance(){
+        System.out.println("Teacher Accessed Student Attendance");
         return isAttended;
     }
 
-   
-    
 }
