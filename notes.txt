@@ -208,3 +208,8 @@
 
         -> We can have non-abstract methods inside abstrct classes
 
+
+24 June
+=======
+
+    -> Encapsulation LAB implementation on LMS App
