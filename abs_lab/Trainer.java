@@ -44,7 +44,8 @@ public class Trainer extends AbstractPerson implements Personable, Payables {
        System.out.println("Enter ID:");
        setPersonID(sc.nextInt());
        System.out.println("Enter Name:");
-       setPersonName(getPersonName());
+       sc.nextLine(); // Clear the buffer
+       setPersonName(sc.nextLine());
        System.out.println("Enter Age:");
        setPersonAge(sc.nextInt());
        System.out.println("Enter Mobile Number:");
