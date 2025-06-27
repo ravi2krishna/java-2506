@@ -227,17 +227,21 @@
         -> Polymorphism enables an entity to take MULTIPLE FORMS.
 
         -> Types Of Polymorphism
-           
+
             -> Compile Time Polymorphism(Static Polymorphism)
 
                 -> Method Overloading during Compile Time
 
                 -> Define Multiple Methods with SAME NAME but DIFFERENT PARAMETERES LIST
 
+                -> Consider number of parameters, type of parameters, order of parameters
+
             -> Run Time Polymorphism (Dynamic Polymorphism)
 
                 -> Method Overriding during Run Time
 
                 -> Allows SUBCLASS to provide IMPLEMENTATION of SUPER CLASS METHODS
+
+                -> Based on Object being called at RUNTIME, the appropriate methods will be called
 
     
