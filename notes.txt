@@ -218,3 +218,17 @@
 =======
 
     -> Abstraction LAB implementation on LMS App    
+
+27 June
+=======    
+
+    -> Polymorphism
+
+        -> Polymorphism enables an entity to take MULTIPLE FORMS.
+
+        -> Types    
+            -> Compile Time Polymorphism(Static Polymorphism)
+
+            -> Run Time Polymorphism (Dynamic Polymorphism)
+
+        ->  
