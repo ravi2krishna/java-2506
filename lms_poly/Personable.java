@@ -1,0 +1,7 @@
+package lms_poly;
+// Common Behvaiours for Students, Trainers etc
+public interface Personable {
+    public void setPersonDetails();
+    public void displayPersonDetails();
+    default void achievementStatus() {}
+}
